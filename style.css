@@ -40,7 +40,9 @@ h2 {
   z-index: 10;
   height: 70px;
 }
-
+.menu-button{
+  display: none;
+}
 .menu__container {
   display: flex;
   justify-content: space-between;
@@ -216,7 +218,9 @@ h2 {
 .main__article-pages a:hover {
   color: var(--blue);
 }
-
+.main__article-load-more{
+display: none;
+}
 /* aside */
 .main__aside h2 {
   margin-bottom: 20px;
@@ -461,6 +465,7 @@ h2 {
     width: 100%;
   }
   .main__article-load-more{
+    display: block;
     flex-grow: 1;
   }
   .main__article-load-more button{
